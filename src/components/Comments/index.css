@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.divContainer {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: auto;
+}
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.heading {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #1e293b;
+  font-size: 41px;
+}
+.commentsImage {
+  width: 280px;
+}
+.description {
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #475569;
+  font-size: 17px;
+}
+.inputEl {
+  border-radius: 3px;
+  background-color: transparent;
+  outline: none;
+  padding-left: 10px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: 315px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cbd2d9;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 15px;
+}
+.textareaEl {
+  margin-top: 12px;
+}
+.buttonEl {
+  background-color: #0284c7;
+  font-family: 'Roboto';
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+  border-radius: 4px;
+  border-width: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.separator {
+  width: 100%;
+  background-color: #cbd2d9;
+}
+.totalCommentsDesc {
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #475569;
+  font-size: 16px;
+}
+.commentsCount {
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 2px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-width: 0px;
+  margin-right: 5px;
+}
+.listContainer {
+  padding-left: 0px;
+  list-style-type: none;
+}
+@media screen and (min-width: 768px) {
+  .inputsContainer {
+    order: 0;
+  }
+  .commentsContainer {
+    display: flex;
+  }
+  .commentsImage {
+    order: 1;
+    margin-left: 80px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 40px;
+  }
+  .divContainer {
+    padding-left: 70px;
+    padding-top: 40px;
+    padding-right: 30px;
+  }
+  .separator {
+    margin: 0;
+    width: 680px;
+  }
+}

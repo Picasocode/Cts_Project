@@ -1,0 +1,97 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.commentItemContainer {
+  display: flex;
+}
+.letterContainer {
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  border-radius: 18px;
+}
+.commentViewContainer {
+  display: flex;
+  flex-direction: column;
+}
+.name {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-weight: bold;
+  font-size: 17px;
+  margin-left: 10px;
+}
+.timing {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 15px;
+}
+.comment {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0px;
+  margin-left: 10px;
+}
+.buttonsContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.buttons {
+  border-width: 0px;
+  background-color: transparent;
+  margin-top: 10px;
+  cursor: pointer;
+  outline: none;
+  padding: 5px;
+}
+.likeText {
+  font-family: 'Roboto';
+  color: #7e858e;
+  margin-left: 6px;
+  font-weight: bold;
+}
+.likeColor {
+  color: #0ea5e9;
+}
+.separator2 {
+  width: 100%;
+  margin: 0;
+  background-color: #cbd2d9;
+}
+@media screen and (min-width: 768px) {
+  .commentItemContainer {
+    width: 680px;
+  }
+}
