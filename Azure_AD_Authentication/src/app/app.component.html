@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="wrapper">
+    <div class="banner-image"> </div>
+  <a class="title" href="/">Azure AD Authentication</a>
+
+  <div class="toolbar-spacer"></div>
+  <button mat-raised-button *ngIf="!loginDisplay" (click)="login()">
+    Login with Microsoft
+  </button>
+  <button mat-raised-button *ngIf="loginDisplay" (click)="logout()">
+    Logout
+  </button>
+
+</div>
+</div>
+
+<div class="container">
+  <router-outlet *ngIf="!isIframe"></router-outlet>
+</div>
